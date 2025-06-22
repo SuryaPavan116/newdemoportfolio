@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Surya Pavan | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .project h3 {
+      margin-top: 0;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Surya Pavan Chinnam</h1>
+    <p>Web Developer | Java Programmer | Tech Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I'm a passionate software developer from India, aiming to build efficient, user-friendly web apps.
+      I have experience in full-stack development, love learning new technologies, and am currently working on projects involving Java, React, and deep learning.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Flight Radar Tracker</h3>
+        <p>A real-time flight tracking web app using React, Leaflet, and OpenSky API.</p>
+      </div>
+      <div class="project">
+        <h3>Social Media Platform</h3>
+        <p>An online platform allowing users to connect and share content, built with MERN stack.</p>
+      </div>
+      <div class="project">
+        <h3>Deep Learning on UAVs</h3>
+        <p>Capstone project to optimize object detection models for UAVs using pruning and quantization.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact">
+      <p>Email: suryapavan@example.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/suryapavan" target="_blank">linkedin.com/in/suryapavan</a></p>
+      <p>GitHub: <a href="https://github.com/suryapavan" target="_blank">github.com/suryapavan</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Surya Pavan Chinnam. All rights reserved.
+  </footer>
+</body>
+</html>
